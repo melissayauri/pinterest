@@ -80,3 +80,51 @@ ul li:nth-child(5) {
     margin-left:20px;
     padding:10px 8px;
     /*widht:150px;*/
+}
+
+
+/*segundo menu*/
+.second-menu{
+  overflow:auto;
+   margin:0;
+   padding-left:120px;
+}
+
+.box2{
+    width:90px;
+
+    float:left;
+    text-align:center;
+color: white;
+    border-radius:6px;
+    margin-top:10px;
+    margin-left:10px;
+}
+.second-menu .box2:nth-child(1){
+background-color: #996633;
+}
+
+.second-menu .box2:nth-child(2){
+background-color: #CC9900;
+}
+.second-menu .box2:nth-child(3){
+background-color: #A16600;
+}
+.second-menu .box2:nth-child(4){
+background-color: #996633;
+}
+.second-menu .box2:nth-child(5){
+background-color: #669900;
+}
+.second-menu .box2:nth-child(6){
+background-color: #996633;
+}
+.second-menu .box2:nth-child(7){
+background-color: #996633;
+}
+.second-menu .box2:nth-child(8){
+background-color: #996600;
+}
+.second-menu .box2:nth-child(9){
+background-color: #996633;
+}
