@@ -1,10 +1,11 @@
 
 
 header{
-  outline: 1px solid red;
+  /*outline: 1px solid red;*/
   position: fixed;
    width:100%;
    top:0;
+   background-color: white;
 
 }
 ul{
@@ -39,17 +40,29 @@ li{
     margin-left: 0px;
 
  }
+.icon-cancel{
+  margin-right: 20px;
+}
+.icon-chevron-down{
 
+font-size: 20px;
+padding-top: 0;
+position: relative;
+top: 5px;
+}
  .icon-user{
-       font-size:18px;
+   font-size:18px;
+      color: #b5b5b5;
 
  }
  .icon-three-bars{
     font-size:25px;
+     color: #b5b5b5;
  }
 
- .icon-commenting-o{
+ .icon-chat{
   font-size:20px;
+   color: #b5b5b5;
  }
  ul li:first-child{
 
@@ -94,10 +107,10 @@ ul li:nth-child(5) {
 
 .box2{
     width:90px;
-
+    padding: 10px;
     float:left;
     text-align:center;
-color: white;
+    color: white;
     border-radius:6px;
     margin-top:10px;
     margin-left:10px;
@@ -138,58 +151,14 @@ overflow: auto;
 padding: 0 10px;
 
 }
-/*
-.contenedor{
-  width: 90%;
-  margin: 15px auto;
-  /*overflow: auto;
-  margin-top: 150px;
-  /*float: left;
 
-}
-
-.post{
-  width: 260px;
-  /*float: left;
-  margin-right: 30px;
-margin-bottom: 15px;
-  /*border-radius: 20px;
-}
-
-img{
-  width: 100%;
-  border-radius: 20px;
-  /*float: left;
-
-}*/
-
-
-/*
-main.contenedor{
+main .contenedor{
   float: left;
   width: 25%;
 
-
-}
-
-main .post{
-
-  margin: 20px 10px;
-}
-.post img{
-display:inline-block;
-width: 50%;
-}*/
-main .contenedor{
-  /*outline: 1px solid blue;
-  display: inline-block;
-  width: 25%;*/
-  float: left;
-    width: 25%;
-  /*column-gap: 15px;*/
 }
 main .post{
-  outline: 1px solid red;
+  /*outline: 1px solid red;*/
   margin: 20px 10px;
 }
 .post img{
@@ -200,6 +169,11 @@ main .post{
 .post .text{
   margin-top: 15px;
   float: left;
+
+}
+.post .text h1{
+  font-size: 16px;
+
 }
 .post .text .user{
   margin-top: 12px;
@@ -225,4 +199,19 @@ color: #fff;
 
 .post .text .user .name{
   display: block;
+
+}
+
+.post .icon{
+position: relative;
+left: 220px;
+bottom: 120px;
+top: -110px;
+
+   font-size: 10px;
+
+
+   width: 30%;
+   color: #b5b5b5;
+
 }
