@@ -1,217 +1,214 @@
 
-
+/*encabezado que contiene a los dos menus*/
 header{
   /*outline: 1px solid red;*/
+  /*psocionamiento fijo */
   position: fixed;
-   width:100%;
-   top:0;
-   background-color: white;
-
+  width:100%;
+  top:0;
+  background-color: white;
 }
+/**/
 ul{
   margin: 0;
   padding: 0;
 }
 li{
-
-   float: left;
-
- }/*#EFEFEF*/
- .first-menu{
+  /*se coloca al lado izquierdo y sale del flujo del documento*/
+  float: left;
+}
+/*primer menu*/
+.first-menu{
+  /*quita las viñetas*/
    list-style: none;
    overflow: auto;
-    margin:0;
+   margin:0;
    padding:10px 0;
    border-bottom: 1px solid #d3d3d3;
  }
+ /*contenedor gris*/
  box{
    display: inline-block;
  }
-
- .style-input{
+/**/
+ input{
    width:720px;
+   /*color gris*/
    background :#EFEFEF;
    border:none;
    font-size:17px;
  }
 
- .icon-brand{
-    font-size:40px;
-    margin-left: 0px;
-
- }
-.icon-cancel{
-  margin-right: 20px;
-}
-.icon-chevron-down{
-
-font-size: 20px;
-padding-top: 0;
-position: relative;
-top: 5px;
-}
- .icon-user{
-   font-size:18px;
-      color: #b5b5b5;
-
- }
- .icon-three-bars{
-    font-size:25px;
-     color: #b5b5b5;
- }
-
- .icon-chat{
-  font-size:20px;
-   color: #b5b5b5;
- }
+/*primer hijo en el primer menú: icon brand*/
  ul li:first-child{
-
-     widht:50px;
-     margin-left:65px;
-     margin-right:15px;
+   margin-left:65px;
+   margin-right:15px;
+   font-size: 30px;
  }
-
+/*segundo hijo en el primer menú:box gris*/
  ul li:nth-child(2) {
     margin-left:5px;
     padding:10px 80px;
-    widht:150px;
     background :#EFEFEF;
     border-radius:3px;
 }
-
+/*tercer hijo en el primer menú: icon user*/
 ul li:nth-child(3) {
     margin-left:40px;
     padding:10px 8px;
-    /*widht:150px;*/
-
+    font-size: 20px;
+    color: #b5b5b5;
 }
+/*cuarto hijo en el primer menú: icon three bars*/
 ul li:nth-child(4) {
     margin-left:20px;
     padding:10px 8px;
-    /*widht:150px;*/
-
-}
+    font-size: 20px;
+    color: #b5b5b5;
+  }
+/*quinto hijo en el primer menú: icon chat*/
 ul li:nth-child(5) {
     margin-left:20px;
     padding:10px 8px;
-    /*widht:150px;*/
+    font-size: 20px;
+    color: #b5b5b5;
+
 }
 
-
+/*outline: 1px solid red;*/
 /*segundo menu*/
 .second-menu{
   overflow:auto;
-   margin:0;
-   padding-left:120px;
+  margin:0;
+  padding-left:120px;
 }
 
 .box2{
     width:90px;
     padding: 10px;
+    /*alineamiento a la izquierda*/
     float:left;
     text-align:center;
     color: white;
+    /*borde circular a los bloques*/
     border-radius:6px;
+    /*espaciado*/
     margin-top:10px;
     margin-left:10px;
 }
+/*aplicando color*/
+/*primer bloque*/
 .second-menu .box2:nth-child(1){
 background-color: #996633;
 }
-
+/*segundo bloque*/
 .second-menu .box2:nth-child(2){
 background-color: #CC9900;
 }
+/*tercer bloque*/
 .second-menu .box2:nth-child(3){
 background-color: #A16600;
 }
+/*cuarto bloque*/
 .second-menu .box2:nth-child(4){
 background-color: #996633;
 }
+/*quinto bloque*/
 .second-menu .box2:nth-child(5){
 background-color: #669900;
 }
+/*sexto bloque*/
 .second-menu .box2:nth-child(6){
 background-color: #996633;
 }
+/*septimo bloque*/
 .second-menu .box2:nth-child(7){
 background-color: #996633;
 }
+/*octavo bloque*/
 .second-menu .box2:nth-child(8){
 background-color: #996600;
 }
+/*noveno bloque*/
 .second-menu .box2:nth-child(9){
 background-color: #996633;
 }
-/*cupero de llas imagens*/
-main{
+
+/*cuerpo de las imagens*/
+section{
+/*posiconamiento despues del encabezado*/
 margin: 150px auto auto;
-max-width: 1400px;
+
 overflow: auto;
+/*relleno*/
 padding: 0 10px;
-
 }
-
-main .contenedor{
+/*columnas*/
+section .contenedor{
   float: left;
+/*cuatro columnas,cada una el 25% */
   width: 25%;
+}
 
+/*contenedor de la imagen*/
+section .block{
+  /*espacio entre cada imagen*/
+  margin: 20px 10px 0px 30px;
 }
-main .post{
-  /*outline: 1px solid red;*/
-  margin: 20px 10px;
-}
-.post img{
+/*imagen*/
+.block img{
   width: 100%;
-  border-radius: 10px;
-  /*margin-bottom: 5px;*/
+  /*borde circular de la imagen*/
+  border-radius: 20px;
 }
-.post .text{
-  margin-top: 15px;
+
+/*titulo*/
+.block .text h1{
+  font-size: 16px;
+margin-bottom: 0px;
+}
+.block .text p{
+  margin: 10px 0px 10px 0px;
+}
+.block .text .user{
+  /*margin-top: 10px;*/
+  font-size: 15px;
+}
+/*creando el circulo rojo*/
+.block .text .user .circle{
+  width: 30px;
+  height: 30px;
+  background-color: #d597a1;
+  border-radius: 50px;
+  /*espaciado*/
+  margin-right: 3px;
+  margin-top: 1px;
+  text-align: center;
   float: left;
 
 }
-.post .text h1{
-  font-size: 16px;
-
-}
-.post .text .user{
-  margin-top: 12px;
-font-size: 15px;
-}
-.post .text .user .circle{
-  width: 30px;
-    height: 30px;
-    background-color: #d597a1;
-    border-radius: 50px;
-    margin-right: 3px;
-    margin-top: -5px;
-    text-align: center;
-    float: left;
-
-}
-.post .text .user .circle .letter{
-color: #fff;
-    font-weight: 700;
-    position: relative;
+/*letra dentro del circulo*/
+.block .text .user .circle .letter{
+  color: #fff;
+  font-weight: 700;
+  position: relative;
     top: 6px;
   }
-
-.post .text .user .name{
+/*autor*/
+.block .text .user .name{
+  /*convritiendo a bloque*/
   display: block;
-
+  margin-top: 0px;
 }
-
-.post .icon{
+/*iconos pequeños*/
+.block .icon{
+/*posicionamiento para que no afecte a los otros*/
 position: relative;
+/*eje de coordenadas para el posicionamiento*/
 left: 220px;
-bottom: 120px;
-top: -110px;
-
-   font-size: 10px;
-
-
-   width: 30%;
-   color: #b5b5b5;
+bottom: 90px;
+/*tamaño*/
+font-size: 10px;
+color: #b5b5b5;
 
 }

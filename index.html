@@ -3,88 +3,193 @@
   <head>
     <meta charset="utf-8">
     <title>Pinterest</title>
+    <!--vinculando con el archvivo de iconos-->
     <link rel="stylesheet" href="assets/icons/icomoon/style.css">
-
-
+    <!--vinculando con el archvivo css-->
     <link rel="stylesheet" href="css/main.css">
   </head>
+
   <body>
     <!--encabezado-->
     <header>
       <!--primer menu-->
       <ul class="first-menu">
-        <li><span class="icon-brand"></span></li>
         <li>
-          <div class="box"><span class="icon-search"></span><input type="text" placeholder="javascript" class="style-input">
-             <span class="icon-cancel"></span><strong>All pins</strong><span class="icon-chevron-down"></div>
-
+          <!--icono de pinterest-->
+          <span class="icon-brand"></span>
         </li>
-        <li><span class="icon-user"></span></li>
-        <li><span class="icon-three-bars"></span></li>
-        <li><span class="icon-chat"></span></li>
-      </ul>
+        <li>
+          <!--contenedor gris-->
+          <div class="box">
+            <!--icono buscar-->
+            <span class="icon-magnifier"></span>
+            <!--entrada para recibir datos-->
+            <input type="text" placeholder="javascript" class="style-input">
+            <!--icono x-->
+            <span class="icon-cancel"></span>
+            <strong>All pins</strong>
+            <!--icono de desplegar-->
+            <span class="icon-chevron-down"></span>
+          </div>
+        </li>
 
-      <!--segundo menu-->
-      <ul class="second-menu">
-        <div class="box2"><p>Cheat Sheet</p></div>
-        <div class="box2"><p>Tutorial</p></div>
-        <div class="box2"><p>Code</p></div>
-        <div class="box2"><p>Fun</p></div>
-        <div class="box2"><p>Programming</p></div>
-        <div class="box2"><p>Projects</p></div>
-        <div class="box2"><p>Post</p></div>
-        <div class="box2"><p>Medium</p></div>
-        <div class="box2"><p>Videos</p></div>
+        <li>
+          <!--icono usuario-->
+          <span class="icon-user"></span>
+        </li>
 
-      </ul>
-    </header>
+        <li>
+          <!--icono de tres barras-->
+          <span class="icon-three-bars"></span>
+        </li>
+        <li>
+          <span class="icon-chat"></span>
+        </li>
+    </ul>
+
+    <!--segundo menu-->
+    <ul class="second-menu">
+      <!--bloques del menu-->
+      <div class="box2">
+        <p>Cheat Sheet</p>
+      </div>
+      <div class="box2">
+        <p>Tutorial</p>
+      </div>
+      <div class="box2">
+        <p>Code</p>
+      </div>
+      <div class="box2">
+        <p>Fun</p>
+      </div>
+      <div class="box2">
+        <p>Programming</p>
+      </div>
+      <div class="box2">
+        <p>Projects</p>
+      </div>
+      <div class="box2">
+        <p>Post</p>
+      </div>
+      <div class="box2">
+        <p>Medium</p>
+      </div>
+      <div class="box2">
+        <p>Videos</p>
+      </div>
+    </ul>
+  </header>
+  
     <!---cuerpo de la imagnes-->
-    <main>
+    <section>
       <!---primera columna-->
       <div class="contenedor">
-        <div class="post">
+        <!---contenedor de la imagen-->
+        <div class="block">
           <a href="assets/imgs/cheatsheet.jpg">
           <img src="assets/imgs/cheatsheet.jpg" alt="cheatsheet"></a>
+          <!---contenedor del titulo y parráfo -->
           <div class="text">
             <h1>Web Design</h1>
             <p>HTML and Javascript Cheat Sheet for Site Designers</p>
+            <!---contenedor del circulo y autor-->
             <div class="user">
+              <!---bloque:circulo rojo -->
               <div class="circle">
                 <span class="letter">B</span>
               </div>
+              <!---autor-->
               <span class="name">Jamie Thomson</span>
               <span>#scoop.it</span>
             </div>
+            <!---contenedor de iconos pequeños-->
             <div class="icon">
+              <!--icono clip-->
               <span class="icon-thumb-tack">36.6k</span>
+              <!--icono check-->
               <span class="icon-checkmark">0</span>
             </div>
           </div>
         </div>
-
-        <div class="post">
+        <!---contenedor de la imagen-->
+        <div class="block">
           <img src="assets/imgs/javascript_quick.jpg" alt="cheatsheet">
+          <!---contenedor del titulo y parráfo -->
           <div class="text">
             <h1>tech</h1>
             <p>javascript cheat sheet Mehr</p>
+            <!---contenedor del circulo y autor-->
             <div class="user">
               <div class="circle">
                 <span class="letter">K</span>
               </div>
+              <!---autor-->
               <span class="name">Kwanchit Donsophon</span>
               <span>#cheatography.com</span>
             </div>
             <div class="icon">
+              <!--icono clip-->
               <span class="icon-thumb-tack">36.6k</span>
+              <!--icono check-->
               <span class="icon-checkmark">0</span>
             </div>
           </div>
         </div>
-
-        <div class="post"><img src="assets/imgs/eloquent_javascript.jpg" alt="cheatsheet">
+        <!---contenedor de la imagen-->
+        <div class="block">
+          <img src="assets/imgs/eloquent_javascript.jpg" alt="cheatsheet">
+          <!---contenedor del titulo y parráfo -->
           <div class="text">
             <h1>Dnnxc</h1>
             <p>http://eloquentjavascript.net</p>
+            <!---contenedor del circulo y autor-->
+            <div class="user">
+              <div class="circle">
+                <span class="letter">H</span>
+              </div>
+              <span class="name">Herminio Garcia</span>
+              <span>#Herminio Garcia</span>
+            </div>
+            <div class="icon">
+              <!--icono clip-->
+              <span class="icon-thumb-tack">36.6k</span>
+              <!--icono check-->
+              <span class="icon-checkmark">0</span>
+            </div>
+          </div>
+        </div>
+        <!---contenedor de la imagen-->
+        <div class="block">
+          <img src="assets/imgs/why_javascript.jpg" alt="cheatsheet">
+          <!---contenedor del titulo y parráfo -->
+          <div class="text">
+            <h1>Dnnxc</h1>
+            <p>http://eloquentjavascript.net</p>
+            <!---contenedor del circulo y autor-->
+            <div class="user">
+              <div class="circle">
+                <span class="letter">H</span>
+              </div>
+              <!---autor-->
+              <span class="name">Herminio Garcia</span>
+              <span>#Herminio Garcia</span>
+            </div>
+            <div class="icon">
+                <!--icono clip-->
+              <span class="icon-thumb-tack">36.6k</span>
+              <!--icono check-->
+              <span class="icon-checkmark">0</span>
+            </div>
+          </div>
+        </div>
+        <!---contenedor de la imagen-->
+        <div class="block">
+          <img src="assets/imgs/jquery_cheatsheet.jpg" alt="cheatsheet">
+          <!---contenedor del titulo y parráfo -->
+          <div class="text">
+            <h1>Dnnxc</h1>
+            <p>http://eloquentjavascript.net</p>
+            <!---contenedor del circulo y autor-->
             <div class="user">
               <div class="circle">
                 <span class="letter">H</span>
@@ -98,11 +203,54 @@
             </div>
           </div>
         </div>
-
-        <div class="post"><img src="assets/imgs/why_javascript.jpg" alt="cheatsheet">
+        <!---contenedor de la imagen-->
+        <div class="block">
+          <img src="assets/imgs/programming.jpg" alt="cheatsheet">
           <div class="text">
             <h1>Dnnxc</h1>
             <p>http://eloquentjavascript.net</p>
+            <!---contenedor del circulo y autor-->
+            <div class="user">
+              <div class="circle">
+                <span class="letter">H</span>
+              </div>
+              <span class="name">Herminio Garcia</span>
+              <span>#Herminio Garcia</span>
+            </div>
+            <!---contenedor de iconos pequeños-->
+            <div class="icon">
+              <span class="icon-thumb-tack">36.6k</span>
+              <span class="icon-checkmark">0</span>
+            </div>
+          </div>
+        </div>
+        <!---contenedor de la imagen-->
+        <div class="block">
+          <img src="assets/imgs/js_regular_options.jpg" alt="cheatsheet">
+          <div class="text">
+            <h1>Dnnxc</h1>
+            <p>http://eloquentjavascript.net</p>
+            <!---contenedor del circulo y autor-->
+            <div class="user">
+              <div class="circle">
+                <span class="letter">H</span>
+              </div>
+              <span class="name">Herminio Garcia</span>
+              <span>#Herminio Garcia</span>
+            </div>
+            <!---contenedor de iconos pequeños-->
+            <div class="icon">
+              <span class="icon-thumb-tack">36.6k</span>
+              <span class="icon-checkmark">0</span>
+            </div>
+          </div>
+        </div>
+        <div class="block">
+          <img src="assets/imgs/js_framework.jpg" alt="cheatsheet">
+          <div class="text">
+            <h1>Dnnxc</h1>
+            <p>http://eloquentjavascript.net</p>
+            <!---contenedor del circulo y autor-->
             <div class="user">
               <div class="circle">
                 <span class="letter">H</span>
@@ -116,109 +264,64 @@
             </div>
           </div>
         </div>
-
-
-          <div class="post"><img src="assets/imgs/jquery_cheatsheet.jpg" alt="cheatsheet">
-            <div class="text">
-              <h1>Dnnxc</h1>
-              <p>http://eloquentjavascript.net</p>
-              <div class="user">
-                <div class="circle">
-                  <span class="letter">H</span>
-                </div>
-                <span class="name">Herminio Garcia</span>
-                <span>#Herminio Garcia</span>
+        <div class="block">
+          <img src="assets/imgs/development_websites.jpg" alt="cheatsheet">
+          <div class="text">
+            <h1>Dnnxc</h1>
+            <p>http://eloquentjavascript.net</p>
+            <!---contenedor del circulo y autor-->
+            <div class="user">
+              <div class="circle">
+                <span class="letter">H</span>
               </div>
-              <div class="icon">
-                <span class="icon-thumb-tack">36.6k</span>
-                <span class="icon-checkmark">0</span>
-              </div>
+              <span class="name">Herminio Garcia</span>
+              <span>#Herminio Garcia</span>
+            </div>
+            <div class="icon">
+              <span class="icon-thumb-tack">36.6k</span>
+              <span class="icon-checkmark">0</span>
             </div>
           </div>
-
-            <div class="post"><img src="assets/imgs/programming.jpg" alt="cheatsheet">
-              <div class="text">
-                <h1>Dnnxc</h1>
-                <p>http://eloquentjavascript.net</p>
-                <div class="user">
-                  <div class="circle">
-                    <span class="letter">H</span>
-                  </div>
-                  <span class="name">Herminio Garcia</span>
-                  <span>#Herminio Garcia</span>
-                </div>
-                <div class="icon">
-                  <span class="icon-thumb-tack">36.6k</span>
-                  <span class="icon-checkmark">0</span>
-                </div>
-              </div>
-
-            </div>
-              <div class="post"><img src="assets/imgs/js_regular_options.jpg" alt="cheatsheet">
-                <div class="text">
-                  <h1>Dnnxc</h1>
-                  <p>http://eloquentjavascript.net</p>
-                  <div class="user">
-                    <div class="circle">
-                      <span class="letter">H</span>
-                    </div>
-                    <span class="name">Herminio Garcia</span>
-                    <span>#Herminio Garcia</span>
-                  </div>
-                  <div class="icon">
-                    <span class="icon-thumb-tack">36.6k</span>
-                    <span class="icon-checkmark">0</span>
-                  </div>
-                </div>
-              </div>
-                <div class="post"><img src="assets/imgs/js_framework.jpg" alt="cheatsheet">
-                  <div class="text">
-                    <h1>Dnnxc</h1>
-                    <p>http://eloquentjavascript.net</p>
-                    <div class="user">
-                      <div class="circle">
-                        <span class="letter">H</span>
-                      </div>
-                      <span class="name">Herminio Garcia</span>
-                      <span>#Herminio Garcia</span>
-                    </div>
-                    <div class="icon">
-                      <span class="icon-thumb-tack">36.6k</span>
-                      <span class="icon-checkmark">0</span>
-                    </div>
-                  </div>
-                </div>
-
-                  <div class="post"><img src="assets/imgs/development_websites.jpg" alt="cheatsheet">
-                    <div class="text">
-                      <h1>Dnnxc</h1>
-                      <p>http://eloquentjavascript.net</p>
-                      <div class="user">
-                        <div class="circle">
-                          <span class="letter">H</span>
-                        </div>
-                        <span class="name">Herminio Garcia</span>
-                        <span>#Herminio Garcia</span>
-                      </div>
-                      <div class="icon">
-                        <span class="icon-thumb-tack">36.6k</span>
-                        <span class="icon-checkmark">0</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-    <!---segunda columna-->
-      <div class="contenedor">
-        <div class="post"><img src="assets/imgs/learning_code.jpg" alt="cheatsheet"></div>
-        <div class="post"><img src="assets/imgs/getting_know.jpg" alt="cheatsheet"></div>
+        </div>
       </div>
-      <!---tercera columna-->
+
+      <!---segunda columna-->
       <div class="contenedor">
-        <div class="post"><img src="assets/imgs/jquery.jpg" alt="cheatsheet">
+        <div class="block">
+          <img src="assets/imgs/learning_code.jpg" alt="cheatsheet">
+          <!---contenedor del titulo y parráfo -->
           <div class="text">
             <h1>Web Design</h1>
             <p>HTML and Javascript Cheat Sheet for Site Designers</p>
+            <!---contenedor del circulo y autor-->
+            <div class="user">
+              <!---bloque:circulo rojo -->
+              <div class="circle">
+                <span class="letter">B</span>
+              </div>
+              <!---autor-->
+              <span class="name">Jamie Thomson</span>
+              <span>#scoop.it</span>
+            </div>
+            <!---contenedor de iconos pequeños-->
+            <div class="icon">
+              <!--icono clip-->
+              <span class="icon-thumb-tack">36.6k</span>
+              <!--icono check-->
+              <span class="icon-checkmark">0</span>
+            </div>
+          </div>
+        </div>
+        <div class="block"><img src="assets/imgs/getting_know.jpg" alt="cheatsheet"></div>
+      </div>
+
+      <!---tercera columna-->
+      <div class="contenedor">
+        <div class="block"><img src="assets/imgs/jquery.jpg" alt="cheatsheet">
+          <div class="text">
+            <h1>Web Design</h1>
+            <p>HTML and Javascript Cheat Sheet for Site Designers</p>
+                <!---contenedor del circulo y autor-->
             <div class="user">
               <div class="circle">
                 <span class="letter">B</span>
@@ -232,26 +335,125 @@
             </div>
           </div>
         </div>
-        <div class="post"><img src="assets/imgs/mega.jpg" alt="cheatsheet"> </div>
-        <div class="post"><img src="assets/imgs/top7_js.jpg" alt="cheatsheet"></div>
-        <div class="post"><img src="assets/imgs/java_cheatsheet.jpg" alt="cheatsheet"></div>
-        <div class="post"><img src="assets/imgs/map.jpg" alt="cheatsheet"></div>
-</div>
-  <!---cuarta columna-->
-<div class="contenedor">
-  <div class="post">
-    <a href="assets/imgs/angular_react.jpg">
-    <img src="assets/imgs/angular_react.jpg" alt="cheatsheet"></a>
-    <div class="text">
-      <h1>Web Design</h1>
-      <p>HTML and Javascript Cheat Sheet for Site Designers</p>
-      <div class="user">
-        <div class="circle">
-          <span class="letter">B</span>
+        <div class="block">
+          <img src="assets/imgs/mega.jpg" alt="cheatsheet">
+          <!---contenedor del titulo y parráfo -->
+          <div class="text">
+            <h1>Web Design</h1>
+            <p>HTML and Javascript Cheat Sheet for Site Designers</p>
+            <!---contenedor del circulo y autor-->
+            <div class="user">
+              <!---bloque:circulo rojo -->
+              <div class="circle">
+                <span class="letter">B</span>
+              </div>
+              <!---autor-->
+              <span class="name">Jamie Thomson</span>
+              <span>#scoop.it</span>
+            </div>
+            <!---contenedor de iconos pequeños-->
+            <div class="icon">
+              <!--icono clip-->
+              <span class="icon-thumb-tack">36.6k</span>
+              <!--icono check-->
+              <span class="icon-checkmark">0</span>
+            </div>
+          </div>
         </div>
-        <span class="name">Jamie Thomson</span>
-        <span>#scoop.it</span>
-      </div>
+        <div class="block">
+          <img src="assets/imgs/top7_js.jpg" alt="cheatsheet">
+          <!---contenedor del titulo y parráfo -->
+          <div class="text">
+            <h1>Web Design</h1>
+            <p>HTML and Javascript Cheat Sheet for Site Designers</p>
+            <!---contenedor del circulo y autor-->
+            <div class="user">
+              <!---bloque:circulo rojo -->
+              <div class="circle">
+                <span class="letter">B</span>
+              </div>
+              <!---autor-->
+              <span class="name">Jamie Thomson</span>
+              <span>#scoop.it</span>
+            </div>
+            <!---contenedor de iconos pequeños-->
+            <div class="icon">
+              <!--icono clip-->
+              <span class="icon-thumb-tack">36.6k</span>
+              <!--icono check-->
+              <span class="icon-checkmark">0</span>
+            </div>
+          </div>
+        </div>
+        <div class="block">
+          <img src="assets/imgs/java_cheatsheet.jpg" alt="cheatsheet">
+          <!---contenedor del titulo y parráfo -->
+          <div class="text">
+            <h1>Web Design</h1>
+            <p>HTML and Javascript Cheat Sheet for Site Designers</p>
+            <!---contenedor del circulo y autor-->
+            <div class="user">
+              <!---bloque:circulo rojo -->
+              <div class="circle">
+                <span class="letter">B</span>
+              </div>
+              <!---autor-->
+              <span class="name">Jamie Thomson</span>
+              <span>#scoop.it</span>
+            </div>
+            <!---contenedor de iconos pequeños-->
+            <div class="icon">
+              <!--icono clip-->
+              <span class="icon-thumb-tack">36.6k</span>
+              <!--icono check-->
+              <span class="icon-checkmark">0</span>
+            </div>
+          </div>
+        </div>
+        <div class="block">
+          <img src="assets/imgs/map.jpg" alt="cheatsheet">
+          <!---contenedor del titulo y parráfo -->
+          <div class="text">
+            <h1>Web Design</h1>
+            <p>HTML and Javascript Cheat Sheet for Site Designers</p>
+            <!---contenedor del circulo y autor-->
+            <div class="user">
+              <!---bloque:circulo rojo -->
+              <div class="circle">
+                <span class="letter">B</span>
+              </div>
+              <!---autor-->
+              <span class="name">Jamie Thomson</span>
+              <span>#scoop.it</span>
+            </div>
+            <!---contenedor de iconos pequeños-->
+            <div class="icon">
+              <!--icono clip-->
+              <span class="icon-thumb-tack">36.6k</span>
+              <!--icono check-->
+              <span class="icon-checkmark">0</span>
+            </div>
+          </div>
+        </div>
+</div>
+
+
+  <!---cuarta columna-->
+  <div class="contenedor">
+    <div class="block">
+      <a href="assets/imgs/angular_react.jpg">
+        <img src="assets/imgs/angular_react.jpg" alt="cheatsheet"></a>
+        <div class="text">
+          <h1>Web Design</h1>
+          <p>HTML and Javascript Cheat Sheet for Site Designers</p>
+          <!---contenedor del circulo y autor-->
+          <div class="user">
+            <div class="circle">
+              <span class="letter">B</span>
+            </div>
+            <span class="name">Jamie Thomson</span>
+            <span>#scoop.it</span>
+          </div>
       <div class="icon">
         <span class="icon-thumb-tack">36.6k</span>
         <span class="icon-checkmark">0</span>
@@ -259,12 +461,13 @@
     </div>
   </div>
 
-  <div class="post">
+  <div class="block">
     <a href="assets/imgs/useful_js.jpg">
     <img src="assets/imgs/useful_js.jpg" alt="cheatsheet"></a>
     <div class="text">
       <h1>Web Design</h1>
       <p>HTML and Javascript Cheat Sheet for Site Designers</p>
+        <!---contenedor del circulo y autor-->
       <div class="user">
         <div class="circle">
           <span class="letter">B</span>
@@ -279,13 +482,14 @@
     </div>
   </div>
 
-  <div class="post">
+  <div class="block">
     <a href="assets/imgs/cheatsheet.jpg">
     <img src="assets/imgs/cheatsheet.jpg" alt="cheatsheet"></a>
     <div class="text">
       <h1>Web Design</h1>
       <p>HTML and Javascript Cheat Sheet for Site Designers</p>
       <div class="user">
+        <!---contenedor del circulo y autor-->
         <div class="circle">
           <span class="letter">B</span>
         </div>
@@ -299,8 +503,7 @@
     </div>
   </div>
 
-
-</main>
+</section>
 
 
 
