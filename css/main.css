@@ -161,7 +161,9 @@ section .block{
   /*borde circular de la imagen*/
   border-radius: 20px;
 }
-
+.block .text{
+  height: 100px;
+}
 /*titulo*/
 .block .text h1{
   font-size: 16px;
@@ -205,10 +207,11 @@ margin-bottom: 0px;
 /*posicionamiento para que no afecte a los otros*/
 position: relative;
 /*eje de coordenadas para el posicionamiento*/
-left: 220px;
-bottom: 90px;
+left: 200px;
+bottom: 120px;
 /*tamaño*/
 font-size: 10px;
 color: #b5b5b5;
+padding: 20px;
 
 }
